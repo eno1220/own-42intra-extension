@@ -1,0 +1,12 @@
+{
+  "name": "eno1220-42intra-extension",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "description": "Sample Chrome Extension",
+  "content_scripts": [
+    {
+      "matches": ["https://profile.intra.42.fr/"],
+      "js": ["index.js"]
+    }
+  ]
+}
